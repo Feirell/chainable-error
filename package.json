@@ -1,0 +1,24 @@
+{
+  "name": "chainable-error",
+  "version": "0.0.1",
+  "description": "Provides an easy to use \"chainable like Java\" error for v8 engines",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Feirell/chainable-error.git"
+  },
+  "keywords": [
+    "error",
+    "chainable-error",
+    "deugging"
+  ],
+  "author": "Florian Völker <Neirolf2030@web.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Feirell/chainable-error/issues"
+  },
+  "homepage": "https://github.com/Feirell/chainable-error#readme"
+}
