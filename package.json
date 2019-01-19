@@ -1,7 +1,7 @@
 {
   "name": "chainable-error",
   "version": "0.0.1",
-  "description": "Provides an easy to use \"chainable like Java\" error for v8 engines",
+  "description": "Provides an easy to use chainable error for V8 and V8 like engines",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +13,10 @@
   "keywords": [
     "error",
     "chainable-error",
-    "deugging"
+    "debugging"
+  ],
+  "files": [
+    "index.js"
   ],
   "author": "Florian Völker <Neirolf2030@web.de>",
   "license": "MIT",
