@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Provides an easy to use chainable error for V8 and V8 like engines",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
