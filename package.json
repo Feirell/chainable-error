@@ -1,10 +1,11 @@
 {
   "name": "chainable-error",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Provides an easy to use chainable error for V8 and V8 like engines",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -16,12 +17,16 @@
     "debugging"
   ],
   "files": [
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ],
   "author": "Florian Völker <Neirolf2030@web.de>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Feirell/chainable-error/issues"
   },
-  "homepage": "https://github.com/Feirell/chainable-error#readme"
+  "homepage": "https://github.com/Feirell/chainable-error#readme",
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  }
 }
