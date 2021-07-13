@@ -1,6 +1,6 @@
 {
   "name": "chainable-error",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Provides an easy to use chainable error for V8 and V8 like engines",
   "main": "index.js",
   "types": "index.d.ts",
