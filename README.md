@@ -2,6 +2,16 @@
 
 This package is meant to fill a gap till ECMAScript / JavaScript adopts some kind of API to chain Error A as cause for Error B.
 
+## current developments
+
+Great news, this polyfill seems to reach its end, since there is a new development on its way to include this in the spec.
+
+Have a look at:
+
+[TC39 error cause proposal](https://github.com/tc39/proposal-error-cause)
+
+[V8 Dev Blog for error causes](https://v8.dev/features/error-cause)
+
 ## limitations
 
 This package should be used with care, since ECMAScript does not define the stack trace format or any way of manipulating it (see [this stackoverflow answer](https://stackoverflow.com/a/54270910/3647724) for more information). This package will only work for V8 or V8 similar engines which produce the shown stack trace. Otherwise the functions and classes provided will be just stubs with do no chaining.
